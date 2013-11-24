@@ -1,0 +1,85 @@
+ul#menuPrincipal{
+   display:inline;
+   
+}
+ul#Social{
+   display:inline;
+   
+}
+
+#Apresentacao{
+float:right;
+display:block;
+list-style-position: inside;
+list-style-image: none;
+list-style-type: none;
+margin: 0px;
+padding: 5px;
+font-family:Arial;
+}
+
+
+#menuPrincipal li{
+float:left;
+display:block;
+list-style-position: inside;
+list-style-image: none;
+list-style-type: none;
+margin: 0px;
+padding: 5px;
+font-family:Arial;
+}
+
+#Social li{
+float:left;
+display:block;
+list-style-position: inside;
+list-style-image: none;
+list-style-type: none;
+margin: 0px;
+padding: 5px;
+font-family:Arial;
+}
+
+ul#menuPrincipal li a{
+    color: #ccead2;
+    font-size: 16px;
+    text-decoration: none;
+}
+ul#Produtos li a{
+    color: #ccead2;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#logo{
+    float: left;
+}
+
+body{
+background-color:#f4673c;
+}
+
+img#QuemSomos{
+float:left;
+ margin:0 30px 30px 0;
+}
+
+#Visao{
+   font-family:Monotype Corsiva;
+   font-size:20;
+}
+#Valores{
+   font-family:Monotype Corsiva;
+   font-size:20;
+}
+
+#Missao{
+   font-family:Monotype Corsiva;
+   font-size:20;
+}
+
+h1{
+color: #ccead2;
+ font-family:Monotype Corsiva;
+}
