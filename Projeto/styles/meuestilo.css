@@ -1,0 +1,250 @@
+ /*RESET */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica;
+}
+
+html {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background:#f4673c;
+  height: 100%;
+  position: relative;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: 20px;
+  color: #ccead2;
+}
+h2 {
+  font-size: 26px;
+  line-height: 32px;
+  margin-bottom: 16px;
+  color: #ccead2;
+}
+h3 {
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 16px;
+  color: #ccead2;
+}
+p, li {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+/*GRID*/
+[class*="gd"] {
+  float: left;
+  min-height: 1px;
+  position: relative;
+}
+.gd1 {
+  width: 10%;
+}
+.gd2 {
+  width: 20%;
+}
+.gd3 {
+  width: 30%;
+}
+.gd4 {
+  width: 40%;
+}
+.gd5 {
+  width: 50%;
+}
+.gd6 {
+  width: 60%;
+}
+.gd7 {
+  width: 70%;
+}
+.gd8 {
+  width: 80%;
+}
+.gd9 {
+  width: 90%;
+}
+.gd10 {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 40px;
+}
+
+.text-page {
+  margin: 40px 0;
+}
+
+.header {
+  background: #f4673c;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.logo {
+  float: right;
+  border: 0;
+  text-decoration: none;
+}
+
+.menu {
+  padding: 10px 0;
+  /*background: #f78c6c;*/
+  border: 1px solid #ccead2;
+  border-left: 0;
+  border-right: 0;
+  font-size: 16px;
+  clear: both;
+}
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0;
+  padding: 10px;
+}
+
+.menu li:first-child {
+  padding-left: 0;
+}
+
+.menu a {
+  color: #ccead2;
+  text-decoration: none;
+}
+
+.social-media {
+  position: relative;
+  top: 6px;
+}
+.social-media li {
+  padding: 0px 10px;
+}
+
+.main-content {
+  height: 100%;
+  position: relative;
+}
+
+
+/* HOME */
+.imgHome {
+  background: url(../images/imagemhome.jpg) center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+/* Quem somos */
+.description-about {
+  margin-left: 20px;
+}
+
+/*ul#menuPrincipal{
+   display:inline;
+   
+}
+ul#Social{
+   display:inline;
+   
+}
+
+#Apresentacao{
+float:right;
+display:block;
+list-style-position: inside;
+list-style-image: none;
+list-style-type: none;
+margin: 0px;
+padding: 5px;
+font-family:Arial;
+}
+
+
+#menuPrincipal li{
+float:left;
+display:block;
+list-style-position: inside;
+list-style-image: none;
+list-style-type: none;
+margin: 0px;
+padding: 5px;
+font-family:Arial;
+}
+
+#Social li{
+float:left;
+display:block;
+list-style-position: inside;
+list-style-image: none;
+list-style-type: none;
+margin: 0px;
+padding: 5px;
+font-family:Arial;
+}
+
+ul#menuPrincipal li a{
+    color: #ccead2;
+    font-size: 16px;
+    text-decoration: none;
+}
+ul#Produtos li a{
+    color: #ccead2;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#logo{
+    float: left;
+}
+
+body{
+background-color:#f4673c;
+}
+
+img#QuemSomos{
+float:left;
+ margin:0 30px 30px 0;
+}
+
+#Visao{
+   font-family:Monotype Corsiva;
+   font-size:20;
+}
+#Valores{
+   font-family:Monotype Corsiva;
+   font-size:20;
+}
+
+#Missao{
+   font-family:Monotype Corsiva;
+   font-size:20;
+}
+
+h1{
+color: #ccead2;
+ font-family:Monotype Corsiva;
+}
