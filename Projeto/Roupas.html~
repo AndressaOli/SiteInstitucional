@@ -1,28 +1,23 @@
+<!DOCTYPE HTML>
 <html>
 <head>
- <!-- Utilizando a codificação utf-8 -->
-  <meta charset="utf-8">
    <link rel="stylesheet" href="meuestilo.css">
-</hed>
+</head>
 <body>
-   
-	  <div class="logo">
-  <div align="right">
-	  <!--<figure>
-				<img src="img/figure-1.jpg">
-	  </figure> -->
+
+  <div align="right" class="logo">
 		<figure>
-          <img src="Images\logo2.jpg">
+          <img src="Images\logo2.jpg" alt="Logo">
     </figure>
   </div>
-   	  </div> <hr>
+   	  <hr>
 
 <div class="menu">
 	      <nav>
 		      <ul id="menuPrincipal">
-			          <li><a href="Home.html">Home</a></li>
+			          <li><a href="#">Home</a></li>
 			          <li><a href="QuemSomos.html">Quem Somos</a></li>
-				  <li><a href="Colecao.html">Coleção</a></li>
+				  <li><a href="Colecao.html">ColeÃ§Ã£o</a></li>
 				  <li><a href="Loja.html">Loja</a></li>
 				  <li><a href="#artigo5">Contato</a></li>
 			  </ul>
@@ -30,7 +25,6 @@
               
 <ul id="Social">
 <li>
-
        <a href="https://www.facebook.com/pages/You-Up/492516250780601?skip_nax_wizard=true">
        <img src="Images\f.png" alt="facebook">
      </a>
@@ -41,18 +35,21 @@
 </a>
  </li>
 </ul>
+
 <br></br>
 <hr>
 			  
   </nav>
 </div>
-<div class="images">
-  <div class="img1"> 
-     <a href="Images\loja1-big.jpg" class="fresco" data-fresco-group="lojas" data-fresco-caption="">
-          <img src="Images\loja.png" >
-      </a>
- </div>
-</div>
-      
-		   	
+     <a href="#">
+<img src="QuemSomos.jpg" alt="" /> <!-- thumbnail --> 
+<span>
+<img src="QuemSomos.jpg" alt=""  /> <!-- foto ampliada -->
+<span class="legenda">
+Legenda da foto <!-- legenda --> 
+</span>
+</span>
+</a>
+			
+			  	
 </html>

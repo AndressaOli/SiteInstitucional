@@ -1,23 +1,17 @@
 <html>
 <head>
- <!-- Utilizando a codificação utf-8 -->
-  <meta charset="utf-8">
    <link rel="stylesheet" href="meuestilo.css">
-</hed>
+</head>
 <body>
-   
-	  <div class="logo">
+   <div class="logo">
   <div align="right">
-	  <!--<figure>
-				<img src="img/figure-1.jpg">
-	  </figure> -->
+	
 		<figure>
           <img src="Images\logo2.jpg">
     </figure>
   </div>
    	  </div> <hr>
-
-<div class="menu">
+	  <div class="menu">
 	      <nav>
 		      <ul id="menuPrincipal">
 			          <li><a href="Home.html">Home</a></li>
@@ -43,16 +37,24 @@
 </ul>
 <br></br>
 <hr>
+
+<ul id="Categorias">
+                   <li><a href="Roupas.html">Roupas</a></li>
+			       <li><a href="#">Acessórios</a></li>
+				  <li><a href="#">Calçados</a></li>
+</ul>
 			  
   </nav>
 </div>
-<div class="images">
-  <div class="img1"> 
-     <a href="Images\loja1-big.jpg" class="fresco" data-fresco-group="lojas" data-fresco-caption="">
-          <img src="Images\loja.png" >
-      </a>
- </div>
-</div>
-      
-		   	
+<br>
+		      <div class="borda">
+		      <article id="imagemHome">
+		      <div class="artigos">
+			          <figure>
+				          <img src="Images\Colecao.jpg" align="center">
+				      </figure>
+			  </div>
+			
+			  </article>
+		      </div>	
 </html>

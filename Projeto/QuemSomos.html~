@@ -1,21 +1,16 @@
 <html>
 <head>
- <!-- Utilizando a codificação utf-8 -->
-  <meta charset="utf-8">
    <link rel="stylesheet" href="meuestilo.css">
-</hed>
+</head>
 <body>
    
-	  <div class="logo">
-  <div align="right">
-	  <!--<figure>
-				<img src="img/figure-1.jpg">
-	  </figure> -->
+	
+  <div align="right" class="logo">
 		<figure>
           <img src="Images\logo2.jpg">
     </figure>
   </div>
-   	  </div> <hr>
+   	  <hr>
 
 <div class="menu">
 	      <nav>
@@ -46,13 +41,32 @@
 			  
   </nav>
 </div>
-<div class="images">
-  <div class="img1"> 
-     <a href="Images\loja1-big.jpg" class="fresco" data-fresco-group="lojas" data-fresco-caption="">
-          <img src="Images\loja.png" >
-      </a>
- </div>
+
+
+
+<div id="Apresentacao">
+<figure>
+    <img src="Images\QuemSomos.jpg" alt="QuemSomos" id="QuemSomos">
+</figure>
+	<h1>Missão</h1>
+    <p id="Missao">
+	Somos uma empresa de moda feminina.
+    Nosso trabalho é fazer com que todas as mulheres se sintam melhor ao dar um "up" em seu visual 
+     com nossas roupas e acessórios.
+	 </p>
+
+     <h1>Valores</h1>
+       <ul id="Valores">
+         <li>Respeito aos Clientes</li>
+         <li>Excelência e Qualidade</li>
+         <li>Responsabilidade Social</li>
+       </ul>
+
+   <h1>Visão</h1>
+     <p id="Visao">
+	 Ser uma empresa brasileira que sirva como referência para as demais.
+	 </p>
 </div>
       
-		   	
+		     
 </html>
